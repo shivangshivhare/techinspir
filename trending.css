@@ -1,0 +1,267 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+/* --------------------------------wrapper------------------------- */
+#page1{
+    width: 100%;
+    background-color: #091B5D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page1 #box{
+    width: 50%;
+    background-color: transparent;
+}
+#nav h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 4rem;
+    font-weight: 900;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkTWfTYrQG_fw-I9Q72x9QTwFLv6MeWaydJw&usqp=CAU);
+    background-position: center;
+    /* background-size: cover; */
+    -webkit-text-stroke: 1.5px #FFf;
+    text-shadow: 0.1vh 0.1vh 3vh #144df78c;
+}
+#nav .ri-flashlight-line{
+    color:#f7c600;
+}
+#nav h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(236, 236, 236);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+
+
+h3 .ri-chat-3-line{
+    color: white;
+}
+h3 .ri-heart-3-fill{
+    color: red;
+}
+h3 .ri-bookmark-line{
+    color: white;
+}
+#boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    gap: 10rem;
+}
+#box1{
+    height: 55vh;
+    width: 90%;
+    background-color: transparent;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 2vh;
+    padding: 1vh 2vw;
+    -webkit-box-shadow: 0.5vh 0.5vh 8vh #ffffffc5;
+    box-shadow: 0.5vh 0.5vh 8vh #ffffffc5;
+}
+#box1 #icon1{
+    position: absolute;
+    top: 88%;
+    display: flex;
+    gap: 1.5rem;
+    padding-left: 2rem;
+    cursor: pointer;
+}
+
+#dabba1 #profile1{
+    height: 30vh;
+    width: 30%;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    position: absolute;
+    transform: translate(-50%,-30%);
+    /* border-radius: 50%; */
+    cursor: pointer;
+    -webkit-box-shadow: -1vh -1vh 8vh #e100ffc5;
+    box-shadow: -1vh -1vh 8vh #e100ffc5;
+}
+#profile1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#box1 video{
+    height: 48vh;
+    width: 100%;
+    padding: 0.8rem;
+    object-fit: cover;
+}
+#box2{
+    height: 55vh;
+    width: 95%;
+    padding: 1vh 2vw;
+    background-color: transparent;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 2vh;
+    -webkit-box-shadow: 0.5vh 0.5vh 8vh #ffffffc5;
+    box-shadow: 0.5vh 0.5vh 8vh #ffffffc5;
+}
+#box2 #icon2{
+    position: absolute;
+    top: 88%;
+    display: flex;
+    gap: 1.5rem;
+    padding-left: 2rem;
+    cursor: pointer;
+}
+#dabba2 #profile2{
+    height: 30vh;
+    width: 30%;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    position: absolute;
+    transform: translate(-50%,-30%);
+    /* border-radius: 50%; */
+    cursor: pointer;
+    -webkit-box-shadow: -1vh -1vh 8vh #e100ffc5;
+    box-shadow: -1vh -1vh 8vh #e100ffc5;
+}
+#profile2 img{
+    height: 100%;
+    width: 100%;
+    /* border-radius: 50%; */
+    object-fit: cover;
+}
+#box2 video{
+    height: 48vh;
+    width: 100%;
+    padding: 0.8rem;
+    object-fit: cover;
+}
+#box3{
+    height: 55vh;
+    width: 95%;
+    padding: 1vh 2vw;
+    background-color: transparent;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 2vh;
+    -webkit-box-shadow: 0.5vh 0.5vh 8vh #ffffffc5;
+    box-shadow: 0.5vh 0.5vh 8vh #ffffffc5;
+}
+#box3 #icon3{
+    position: absolute;
+    top: 88%;
+    display: flex;
+    gap: 1.5rem;
+    padding-left: 2rem;
+    cursor: pointer;
+}
+#dabba3 #profile3{
+    height: 30vh;
+    width: 30%;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    position: absolute;
+    transform: translate(-50%,-30%);
+    /* border-radius: 50%; */
+    cursor: pointer;
+    -webkit-box-shadow: -1vh -1vh 8vh #e100ffc5;
+    box-shadow: -1vh -1vh 8vh #e100ffc5;
+}
+#profile3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#box3 video{
+    height: 48vh;
+    width: 100%;
+    padding: 0.8rem;
+    object-fit: cover;
+}
+#box4{
+    height: 55vh;
+    width: 95%;
+    padding: 1vh 2vw;
+    background-color: transparent;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 2vh;
+    -webkit-box-shadow: 0.5vh 0.5vh 8vh #ffffffc5;
+    box-shadow: 0.5vh 0.5vh 8vh #ffffffc5;
+}
+#box4 #icon4{
+    position: absolute;
+    top: 88%;
+    display: flex;
+    gap: 1.5rem;
+    padding-left: 2rem;
+    cursor: pointer;
+}
+
+#dabba4 #profile4{
+    height: 30vh;
+    width: 30%;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    position: absolute;
+    transform: translate(-50%,-30%);
+    /* border-radius: 50%; */
+    cursor: pointer;
+    -webkit-box-shadow: -1vh -1vh 8vh #e100ffc5;
+    box-shadow: -1vh -1vh 8vh #e100ffc5;
+}
+#profile4 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#box4 video{
+    height: 48vh;
+    width: 100%;
+    padding: 0.8rem;
+    object-fit: cover;
+}
+
+@media (max-width: 767px) {
+    #box1,#box2,#box3,#box4{
+        width: 80vw;
+    }
+    #dabba1 #profile1{
+        width: 20vw;
+        height: 20vh;
+        transform: translate(-40%,-30%);
+    }
+    #dabba2 #profile2{
+        width: 20vw;
+        height: 20vh;
+        transform: translate(-40%,-30%);
+    }
+    #dabba3 #profile3{
+        width: 20vw;
+        height: 20vh;
+        transform: translate(-40%,-30%);
+    }
+    #dabba4 #profile4{
+        width: 20vw;
+        height: 20vh;
+        transform: translate(-40%,-30%);
+    }
+}
