@@ -3,7 +3,7 @@
 A scalable, AI-powered knowledge-sharing platform designed for students. It supports multilingual content, real-time collaboration, and intelligent content recommendation—enhancing educational equity and engagement.
 
 ## 🌐 Live Demo
-🔗 [Visit Live Site](https://your-deployed-site.com)  
+🔗 [Visit Live Site]([https://your-deployed-site.com](https://techinspire.vercel.app/))  
 📦 [Backend Repo (if separate)](https://github.com/yourname/tech-inspire-backend)
 
 ---
