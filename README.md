@@ -30,12 +30,6 @@ A scalable, AI-powered knowledge-sharing platform designed for students. It supp
 
 ---
 
-## 📸 Screenshots
-
-> *(Insert 2-3 clean UI screenshots here)*  
-`/assets/tech-inspire-homepage.png`  
-`/assets/tech-inspire-dashboard.png`  
-
 ---
 
 ## 🚀 Installation (Run Locally)
