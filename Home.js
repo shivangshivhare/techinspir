@@ -98,7 +98,7 @@ const homepage = [
   bio: "Young innovator passionate about tech",
   details: "Built an AI facial recognition app with Flask and OpenCV to detect and recognize faces in real-time.",
   skills: "Python, OpenCV, Flask, AI",
-  pjimg: "https://images.unsplash.com/photo-1581091012184-7fbd9bc79b66?auto=format&fit=crop&w=600&q=80"
+  pjimg: "https://randomuser.me/api/portraits/men/32.jpg"
 },
     {
         dp: "https://randomuser.me/api/portraits/women/48.jpg",
