@@ -91,21 +91,22 @@ gsap.to(nav, {
 
 // 🚀 Homepage Project Data Cards
 const homepage = [
-    {
-        dp: "https://randomuser.me/api/portraits/men/45.jpg",
-        stname: "Aryan Sharma",
-        collegename: "IIT Bombay",
-        details: "Built an AI facial recognition app with Flask and OpenCV to detect and recognize faces in real-time.",
-        skills: "Python, OpenCV, Flask, AI",
-        pjimg: "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*4t-QmEo_8fwD_xcE9yZ6Ng.png"
-    },
+  {
+  dp: "https://randomuser.me/api/portraits/men/32.jpg",
+  stname: "Aryan Sharma",
+  collegename: "IIT Bombay",
+  bio: "Young innovator passionate about tech",
+  details: "Built an AI facial recognition app with Flask and OpenCV to detect and recognize faces in real-time.",
+  skills: "Python, OpenCV, Flask, AI",
+  pjimg: "https://images.unsplash.com/photo-1581091012184-7fbd9bc79b66?auto=format&fit=crop&w=600&q=80"
+},
     {
         dp: "https://randomuser.me/api/portraits/women/48.jpg",
         stname: "Neha Verma",
         collegename: "NIT Trichy",
         details: "Developed a platform to match startups with interns using React, Node.js, and Firebase.",
         skills: "React, Node.js, Firebase, MongoDB",
-        pjimg: "https://colorlib.com/wp/wp-content/uploads/sites/2/colorlib-search-engine.jpg"
+        pjimg: "https://images.unsplash.com/photo-1581091012184-7fbd9bc79b66?auto=format&fit=crop&w=600&q=80"
     },
     {
         dp: "https://randomuser.me/api/portraits/men/32.jpg",
@@ -113,7 +114,7 @@ const homepage = [
         collegename: "BITS Pilani",
         details: "Created a crop recommendation system using ML that guides farmers on what to plant based on soil data.",
         skills: "Sklearn, Pandas, Python, ML",
-        pjimg: "https://builtin.com/sites/default/files/styles/og/public/2022-09/machine-learning-applications.png"
+        pjimg: "https://images.unsplash.com/photo-1581091012184-7fbd9bc79b66?auto=format&fit=crop&w=600&q=80"
     },
     {
         dp: "https://randomuser.me/api/portraits/women/52.jpg",
@@ -121,7 +122,7 @@ const homepage = [
         collegename: "IIIT Hyderabad",
         details: "Built a mobile app that connects with fitness bands via BLE and shows real-time heart rate and steps.",
         skills: "Flutter, Dart, BLE API",
-        pjimg: "https://cdn.dribbble.com/userupload/6782135/file/original-13a63b7bb74ab4c1fbb3479c385c502c.png"
+        pjimg: "https://images.unsplash.com/photo-1581091012184-7fbd9bc79b66?auto=format&fit=crop&w=600&q=80"
     }
 ];
 
